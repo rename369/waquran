@@ -2,9 +2,9 @@
   "name": "whatsapp",
   "version": "1.0.3",
   "description": "Whatsapp api by Ryan Erlangga",
-  "main": "waquran.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon waquran.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
