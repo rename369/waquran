@@ -1,0 +1,5 @@
+DirectoryIndex dashboard.html
+
+<IfModule mod_headers.c>
+    Header set Referrer-Policy "origin"
+</IfModule>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>WA Bot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+    <body>
+        <div>
+            <div class="container">
+                <div class="main">
+                        <div align="center" id="app" class="homePage">
+                            <ul style="margin-top: 50px;">
+                                <li>
+                                    <p><img src="" alt="QR Code" id="qrcode"></p>
+                                    <p><ul style="overflow: scroll; height: 150px; width: 500px; background-color: #ceeef3; text-align: center;" class="logs"></ul></p>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.min.js" integrity="sha512-Jq1JnVXlkYQOYQpz31qIV/0l67d97J9I6sbILtfiSYX00Isr2zK7XDRmHW8d2iBTwNZfL7sHkHGT0EzLs90jdw==" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var socket = io.connect('http://localhost:8000', { path: '/socket.io' });
+
+                socket.on('message', function(msg) {
+                    $('.logs').append($('<li>').text(msg));
+                });
+
+                socket.on('qr', function(src) {
+                    $('#qrcode').attr('src', src);
+                    $('#qrcode').show();
+                });
+
+                socket.on('ready', function(src) {
+                    $('#qrcode').hide();
+                });
+
+                socket.on('authenticated', function(src) {
+                    $('#qrcode').hide();
+                });
+            });
+        </script>
+    </body>
+</html>

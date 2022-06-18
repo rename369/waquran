@@ -1,0 +1,11 @@
+﻿السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+
+Aplikasi *Whatsapp Quran* dikembangkan oleh Ryan Erlangga
+
+Al-Quran merupakan kitab suci yang berisi firman Allah SWT yang maha sempurna. Segala bentuk kekurangan dalam aplikasi ini adalah karena kekhilafan saya sendiri. Konten dari aplikasi ini diambil dari https://quran.kemenag.go.id/ dan https://everyayah.com/ serta https://tafsirq.com/
+
+Jika anda menemukan kesalahan dalam aplikasi ini atau memiliki ide/saran/masukan untuk pengembangan aplikasi ini, mohon dengan hormat untuk menghubungi saya melalui email: waquran@rename.id
+
+Info aplikasi dan donasi, kunjungi https://sociabuzz.com/waquran
+
+Versi saat ini : 4.0.1

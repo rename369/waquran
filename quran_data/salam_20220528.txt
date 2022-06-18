@@ -1,0 +1,35 @@
+﻿السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+
+Selamat datang di *Whatsapp Quran*.
+
+Data ayat, arti, dan tafsir diambil dari _website resmi Kementerian Agama_ di https://quran.kemenag.go.id/
+Audio murottal (Mishary bin Rashid Alafasy/Shaykh Mishari Alafasy) diambil langsung dari https://everyayah.com/
+Data Hadis diambil dari https://tafsirq.com/
+
+Silahkan menggunakan keyword berikut ini _*(beserta contoh)*_:
+
+1. ayat.nomor surah.nomor ayat
+   contoh : *ayat.1.2* -> melihat ayat surah 1 (Al-Fatihah) ayat 2
+
+2. terjemah.nomor surah.nomor ayat
+   contoh *terjemah.2.5* -> melihat terjemah surah 2 (Al-Baqarah) ayat 5
+
+3. tafsir.nomor surah.nomor ayat
+   contoh : *tafsir.9.83* -> melihat tafsir surah 9 (At-Taubah) ayat 83
+
+4. baca.nomor surah.nomor ayat
+   contoh : *baca.97.3* -> mendengarkan murottal surah 97 (Al-Qadr) ayat 3
+
+5. lengkap.nomor surah.nomor ayat
+   contoh : *lengkap.5.19* -> melihat ayat, terjemah, tafsir, dan murottal surah 5 (Al-Ma'idah) ayat 19
+
+6. hadis.perawi.nomor hadis
+   contoh : *hadis.bukhari.1129* -> melihat hadis yang diriwayatkan Bukhari nomor 1129 (arab dan indonesia)
+
+7. *salam* -> melihat pesan ini
+
+8. *surah* -> melihat nomor surah dan jumlah ayat
+
+9. *perawi* -> melihat perawi hadis
+
+10. *info* -> melihat info pengembang

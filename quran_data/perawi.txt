@@ -1,0 +1,10 @@
+﻿Berikut ini adalah perawi hadis yang tersedia pada aplikasi ini beserta jumlah hadisnya.
+1. abu-dawud (4419)
+2. ahmad (4305)
+3. bukhari (6638)
+4. darimi (2949)
+5. ibnu-majah (4285)
+6. malik (1587)
+7. muslim (4930)
+8. nasai (5364)
+9. tirmidzi (3625)
