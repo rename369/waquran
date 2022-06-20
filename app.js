@@ -9,7 +9,7 @@ var moment = require('moment');
 const axios = require('axios');
 const fetch = require('node-fetch');
 var sleep = require('system-sleep');
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 443;
 
 const app = express();
 const server = http.createServer(app);
@@ -291,7 +291,7 @@ client.on('message', async msg => {
     } else if (satu === 'hadis' && dua!=='hadis' && tiga!=='hadis') {
       try {
         // ambil API
-          const response = await fetch('http://localhost:7000/hadis/'+dua+'/'+tiga);
+          const response = await fetch('https://wahadis-rename369.vercel.app/hadis/'+dua+'/'+tiga);
           const body = await response.text();
           var obj = JSON.parse(body);
           var hadisname = obj.name;
